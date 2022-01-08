@@ -34,3 +34,7 @@ print(a.split(","))
 num = 10
 a = "tst {}"
 print(a.format(num))
+
+# string formatting
+txt = "price is {:.2f} dollars"
+print(txt.format(45))
