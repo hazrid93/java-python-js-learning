@@ -22,15 +22,14 @@
 Note: official note at : https://docs.python.org/3/tutorial/venv.html
 
 
- ### Pipenv setup (similar to node package manager)
-- selecting virtual environment python
-> when running or debugging python script select the virtual python interpreter at bottom left of VSCode
-
-- install pipenv in global (similar to npm in nodejs, this is alternative to venv python feature)
+ ### **USE THIS** Pipenv setup (similar to** node package manager)
+ - install pipenv in global (similar to npm in nodejs, this is alternative to venv python feature)
 > pip install --user pipenv
 
 - instantiate pipenv in new project
 > python -m pipenv --python <python_version> // this will generate Pipfile in current project
+- selecting virtual environment python
+> when running or debugging python script select the virtual python interpreter at bottom left of VSCode
 
 - make sure there is Pipfile.lock (similar to package.lock in node),
   inside '[script]' we can define our own run script like package.json
