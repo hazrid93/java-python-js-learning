@@ -1,5 +1,5 @@
 # Lists are used to store multiple items in a single variable.
-# order will not change
+# order and data is changeable
 # duplicate are allowed
 # item are indexed 0->..
 
