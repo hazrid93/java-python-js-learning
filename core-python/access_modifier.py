@@ -1,15 +1,3 @@
-"""
-Identifiers:
--  Contain only (A-z, 0-9, and _ )
--  Start with a lowercase letter or _.
--  Single leading _ :  private ( when this class is imported attributes with _ will not be included )
--  Double leading __ :  strong private ( invokes name mangling algorithm where the instance name can only be refered together with classname
-   to avoid parameter clash (shadowing) e.x: attribute '__name' in class 'Foo' can only be refered by '_Foo__name' )
--  Start & End  __ : Language defined Special Name of Object/ Method e.x: __init__ or __iter__
--  Class names start with an uppercase letter.
--
-
-"""
 
 # in python there are no traditional access modifier like java refer: https://www.python.org/dev/peps/pep-0008/#designing-for-inheritance,
 # the behaviour with underscores on variable are mimicking access modifier in java
