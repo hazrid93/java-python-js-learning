@@ -36,5 +36,9 @@ a = "tst {}"
 print(a.format(num))
 
 # string formatting
+# more formatting note: https://www.w3schools.com/python/ref_string_format.asp
 txt = "price is {:.2f} dollars"
 print(txt.format(45))
+
+# OR
+print("hello mr.{}".format("hazrid"))
