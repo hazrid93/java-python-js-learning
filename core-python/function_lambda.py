@@ -1,4 +1,4 @@
-# function & lambda
+# function & lambda (small anonymous function)
 
 # defining a function
 def defFunc():
@@ -74,3 +74,18 @@ result.insert(0, 0)
 result.insert(1, 1)
 print(result)
 
+
+# lambda simple
+x = lambda a : a + 10 # anonymous function x , takes 'a' as input and return 'a + 10'
+print(x(5))
+
+# lambda multi input
+x = lambda a,b,c : a + b + c
+print(x(1,2,3))
+
+# return lambda from function definition
+def myFunc(n):
+    return lambda a: a * n
+
+myMultiplier = myFunc(5) # return myFunc with n set to 5
+print(myMultiplier(5));
