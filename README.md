@@ -22,7 +22,7 @@
 Note: official note at : https://docs.python.org/3/tutorial/venv.html
 
 
- ### **USE THIS** Pipenv setup (similar to** node package manager)
+ ### (USE THIS) Pipenv setup (similar to** node package manager)
  - install pipenv in global (similar to npm in nodejs, this is alternative to venv python feature)
 > pip install --user pipenv
 
@@ -73,9 +73,9 @@ pipenv run start
 
 - pipenv install format for versioning selection
 >
- pipenv install "requests>=1.4"   # will install a version equal or larger than 1.4.0
- pipenv install "requests<=2.13"  # will install a version equal or lower than 2.13.0
- pipenv install "requests>2.19"   # will install 2.19.1 but not 2.19.0
+ pipenv install "requests>=1.4"   # will install a version equal or larger than 1.4.0 <br/>
+ pipenv install "requests<=2.13"  # will install a version equal or lower than 2.13.0 <br/>
+ pipenv install "requests>2.19"   # will install 2.19.1 but not 2.19.0 <br/>
 
 - to run py script with virtual env
 > pipenv run python server.py
