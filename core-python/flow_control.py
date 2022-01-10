@@ -121,6 +121,16 @@ finally:
     print("finally block")
 
 # python raise exception class
-xer = 4
+xer = 0
 if xer>1:
     raise Exception("x must be above 1")
+
+
+# enumerate , (When you use enumerate(), the function gives you back two loop variables:
+# The count of the current iteration
+# The value of the item at the current iteration)
+
+enumList = [1,2,3,4,5,6]
+
+for count, value in enumerate(enumList, start=1): # start is optional it is use if we want to start at diff index than 0
+    print(count, value)
