@@ -23,6 +23,34 @@ Note: official note at : https://docs.python.org/3/tutorial/venv.html
 
 
  ### (USE THIS) Pipenv setup (similar to** node package manager)
+ - change pipenv python version
+ > 'remove Pipfile && Pipfile.lock'
+ > python -m pipenv --rm
+ > python -m pipenv --python <version>
+
+ - note that tensorflow support python 3.7~3.9 only
+
+- installing CUDA driver to allow tensorflow 2.7 to use GPU (guide [from](http://www.mysmu.edu/faculty/jwwang/post/install-gpu-support-to-tensoflow-on-windows/) )/ or https://www.tensorflow.org/install/gpu
+> install visual studio community [link](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=17)
+> python -c "import tensorflow as tf;print(tf.__version__)" # to check tensorflow version
+> https://www.tensorflow.org/install/source_windows#gpu # to check required cuda version here
+> for TS 2.7 need:  CUDA and cuDNN versions are 11.2 and 8.1
+> download CUDA at: https://developer.nvidia.com/cuda-toolkit-archive
+> install cuDNN: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html (check prerequisite)
+> for cuDNN , Click “Archived cuDNN Releases” and choose the right version which will match with the CUDA, Python and TensorFlow versions
+> copy all the folders and files under cuda to the folder C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2.
+> add path into Environment Variable 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin' 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp'
+> To check whether TensorFlow has access to the GPU support, open Python console (through Anaconda Powershell Prompt for my case), and then run the following code one line at a time:
+'''
+import tensorflow as tf: launch the TensorFlow
+print(tf.test.is_built_with_cuda()): Returns whether TensorFlow was built with CUDA (GPU) support. True if CUDA is installed properly.
+print(tf.config.list_physical_devices('GPU')): Return a list of physical GPU devices visible to the TensoFlow. The output will show all physical GUP devices, starting from index 0.
+'''
+> Alternatively, run the following code directly in the command shell:
+'''
+python -c "import tensorflow as tf;print(tf.test.is_built_with_cuda());print(tf.config.list_physical_devices('GPU'))"
+'''
+
  - install pipenv in global (similar to npm in nodejs, this is alternative to venv python feature)
 > pip install --user pipenv
 
@@ -34,24 +62,24 @@ Note: official note at : https://docs.python.org/3/tutorial/venv.html
 - make sure there is Pipfile.lock (similar to package.lock in node),
   inside '[script]' we can define our own run script like package.json
 > // example of Pipfile.lock
- [[source]]
- url = "https://pypi.org/simple"
- verify_ssl = true
- name = "pypi"
- 
- [packages]
- flask = "*"
- simplejson = "*"
- python-dotenv = "*"
- 
- [dev-packages]
- watchdog = "*"
- 
- [scripts]
- start = "python -m flask run"
- 
- [requires]
- python_version = "3.9"
+    [[source]]
+    url = "https://pypi.org/simple"
+    verify_ssl = true
+    name = "pypi"
+    
+    [packages]
+    flask = "*"
+    simplejson = "*"
+    python-dotenv = "*"
+    
+    [dev-packages]
+    watchdog = "*"
+    
+    [scripts]
+    start = "python -m flask run"
+    
+    [requires]
+    python_version = "3.9"
 
 - to run py script with virtual env
 > pipenv run python server.py
