@@ -36,10 +36,20 @@ Note: official note at : https://docs.python.org/3/tutorial/venv.html
 > https://www.tensorflow.org/install/source_windows#gpu # to check required cuda version here
 > for TS 2.7 need:  CUDA and cuDNN versions are 11.2 and 8.1
 > download CUDA at: https://developer.nvidia.com/cuda-toolkit-archive
-> install cuDNN: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html (check prerequisite)
-> for cuDNN , Click “Archived cuDNN Releases” and choose the right version which will match with the CUDA, Python and TensorFlow versions
-> copy all the folders and files under cuda to the folder C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2.
-> add path into Environment Variable 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin' 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp'
+> install cuDNN: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html (check prerequisite and install the right version in this case 8.1)
+> for cuDNN After download, unzip the file and copy the following files into the CUDA Toolkit directory.
+'''
+Copy \cuda\bin\cudnn*.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin.
+Copy \cuda\include\cudnn*.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include.
+Copy \cuda\lib\x64\cudnn*.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64.
+'''
+> Add the CUDA®, CUPTI, and cuDNN installation directories to the %PATH% environmental variable. For example, if the CUDA® Toolkit is installed to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0 and cuDNN to C:\tools\cuda
+'''
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\bin;%PATH%
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\extras\CUPTI\lib64;%PATH%
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\include;%PATH%
+C:\tools\cuda\bin;%PATH%
+'''
 > To check whether TensorFlow has access to the GPU support, open Python console (through Anaconda Powershell Prompt for my case), and then run the following code one line at a time:
 '''
 import tensorflow as tf: launch the TensorFlow
