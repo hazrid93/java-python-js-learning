@@ -28,7 +28,8 @@ Note: official note at : https://docs.python.org/3/tutorial/venv.html
  > python -m pipenv --rm
  > python -m pipenv --python <version>
 
- - note that tensorflow support python 3.7~3.9 only
+ - [important] note that tensorflow support python 3.7~3.9 only 
+ > our stack would be, python : 3.9.9, tensorflow 2.7, CUDA : 11.2.x and cuDNN: 8.1.x
 
 - installing CUDA driver to allow tensorflow 2.7 to use GPU (guide [from](http://www.mysmu.edu/faculty/jwwang/post/install-gpu-support-to-tensoflow-on-windows/) )/ or https://www.tensorflow.org/install/gpu
 > install visual studio community [link](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=17)
@@ -43,11 +44,12 @@ Copy \cuda\bin\cudnn*.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\
 Copy \cuda\include\cudnn*.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include.
 Copy \cuda\lib\x64\cudnn*.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64.
 '''
-> Add the CUDA®, CUPTI, and cuDNN installation directories to the %PATH% environmental variable. For example, if the CUDA® Toolkit is installed to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0 and cuDNN to C:\tools\cuda
+> Add the CUDA®, CUPTI, and cuDNN installation directories to the windows environmental variable (under Path in system variable). For example, if the CUDA® Toolkit is installed to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0 and cuDNN to C:\tools\cuda
 '''
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\bin;%PATH%
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\extras\CUPTI\lib64;%PATH%
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\include;%PATH%
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\extras\CUPTI\lib64
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.x\include
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
 C:\tools\cuda\bin;%PATH%
 '''
 > To check whether TensorFlow has access to the GPU support, open Python console (through Anaconda Powershell Prompt for my case), and then run the following code one line at a time:
