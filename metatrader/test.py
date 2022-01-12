@@ -6,12 +6,16 @@ register_matplotlib_converters()
 import MetaTrader5 as mt5
  # import pytz module for working with time zone
 import pytz
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
+OCT_LOGIN = int(os.getenv('OCT_LOGIN'))
+OCT_PASS = os.getenv('OCT_PASS')
+
 # connect to MetaTrader 5
-if not mt5.initialize(login=88705599, server="MetaQuotes-Demo",password="UNU9yMeq"):
+if not mt5.initialize(login=OCT_LOGIN, server="OctaFX-Demo",password=OCT_PASS):
     print("initialize() failed, error code =",mt5.last_error())
     quit()
  

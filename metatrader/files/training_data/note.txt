@@ -1,0 +1,2 @@
+1. open meta editor on windows and create a new script and paste the code.
+2. compile and execute on selected chart, screenshot will be created at C:\Users\hazri\AppData\Roaming\MetaQuotes\Terminal\86ADC2D106E3946A8F8D9E6D2FD89531\MQL5\Files

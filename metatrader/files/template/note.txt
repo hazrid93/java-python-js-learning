@@ -1,0 +1,1 @@
+install at C:\Users\hazri\AppData\Roaming\MetaQuotes\Terminal\86ADC2D106E3946A8F8D9E6D2FD89531\MQL5\Profiles\Templates
