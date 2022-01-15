@@ -1,5 +1,5 @@
 # (type A)training first gen CNN neural net on parabolic sar + bollinger 
-'''
+```
 historical purpose:
 Type: computer vision CNN
 Trading Pair: EURUSD
@@ -9,7 +9,7 @@ epochs = 20
 batch_size = 7
 nb_train_samples = 4313
 nb_validation_samples = 1680 
-'''
+```
 
 ## Type A 1st gen CNN update:
 - trained model are inputted sample data from 2019 on EURUSD, the result are transformed into indicator and imported into metatrader terminal
