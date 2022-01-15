@@ -1,3 +1,7 @@
+### Sections
+:boom: [metatrader-machine-learning](./metatrader)
+  - [Type-A Gen-1](./metatrader/gen1)
+
 ### Virtual env setup (python default)
 - to create virtual environment to avoid installing dependency on global
 > python -m venv env // venv is the environment name
