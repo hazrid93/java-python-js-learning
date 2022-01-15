@@ -5,6 +5,8 @@
 
 # print list
 listz = ["apple", "banana", "durian"]
+for x in listz:
+    print(x)
 print(listz)
 
 # list type
