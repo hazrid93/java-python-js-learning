@@ -2,7 +2,7 @@
 # The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 # (similar to 'this' in java/js)  and only used within the class definition
 
-# python special methods: https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6
+# python special methods: https://python.plainenglish.io/special-methods-that-will-change-how-you-build-classes-in-python-cd0226b52eb6, http://exampleprogramming.com/specialvars.html
 
 # create class
 class Fruit:

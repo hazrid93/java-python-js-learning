@@ -1,0 +1,3 @@
+# this section is to try python multiprocessing and multithreading
+- multithreading in python doesnt work like in Java or other language (because of what is known as the global interpreter lock (affectionately referred to as the GIL) that prevents multiple threads of Python code from running simultaneously)
+- With threading, concurrency is achieved using multiple threads, but due to the GIL only one thread can be running at a time. In multiprocessing, the original process is forked process into multiple child processes bypassing the GIL. Each child process will have a copy of the entire program's memory.
