@@ -5,6 +5,10 @@
 def foo(a: 'x', b: 5 + 6, c: list) -> max(2, 9):
     pass
 
+# for special type like 'List[]', refer https://docs.python.org/3/library/typing.html (need to write 'from typing import List')
+def containsDuplicate(self, nums: List[int]) -> bool:
+    pass
+
 defaultFoo = foo('a', 12, [1,2])
 ''' //would result in an __annotations__ mapping of//
 {'a': 'x',
