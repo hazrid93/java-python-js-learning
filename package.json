@@ -1,0 +1,24 @@
+{
+  "name": "python-js-learning",
+  "version": "1.0.0",
+  "description": ":boom: [leetcodes-q&a](./leetcodes) <br/>",
+  "main": "./core-js/node/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./core-js/node/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazrid93/python-js-learning.git"
+  },
+  "author": "hazrid93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hazrid93/python-js-learning/issues"
+  },
+  "homepage": "https://github.com/hazrid93/python-js-learning#readme",
+  "dependencies": {
+    "utility": "^1.17.0"
+  }
+}
