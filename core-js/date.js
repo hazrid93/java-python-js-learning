@@ -29,7 +29,7 @@ Note: UTC (Universal Time Coordinated) is the same as GMT (Greenwich Mean Time).
 
 // new date
 const d1 = new Date();
-console.log(d1 ) // default view is : Tue Jan 18 2022 21:44:45 GMT+0800 (Malaysia Time)
+console.log(d1) // default view is : Tue Jan 18 2022 21:44:45 GMT+0800 (Malaysia Time)
 console.log(d1.toDateString())
 console.log(d1.toUTCString())
 console.log(d1.toISOString())
@@ -85,3 +85,7 @@ if (someday > today) {
   text = "Today is after January 14, 2100.";
 }
 console.log(text)
+
+let x = {
+  "name": "hazrid"
+}
