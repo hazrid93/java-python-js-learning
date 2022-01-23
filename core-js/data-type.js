@@ -46,7 +46,7 @@ null	null (object)	null is always null
 undefined	undefined	undefined is always undefined
 */
 
-let length = 16;                               // Number
+let length1 = 16;                               // Number
 let lastName = "Johnson";                      // String
 let x = {firstName:"John", lastName:"Doe"};    // Object
 let x2; // undefined

@@ -28,3 +28,12 @@ console.log(fruits1)
 
 // remove item at index
 fruits1.splice(1,2)// (start at, number of item to remove)
+console.log(fruits1)
+
+// get keys of array
+console.log(Object.keys(fruits1))
+
+// loop using keys
+for(let i in Object.keys(fruits1)){
+    console.log([fruits1[i]])
+}

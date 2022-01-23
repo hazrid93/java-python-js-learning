@@ -20,6 +20,26 @@ Use object literals {} instead of new Object().
 Use array literals [] instead of new Array().
 Use pattern literals /()/ instead of new RegExp().
 Use function expressions () {} instead of new Function().
+
+[difference between constructor and object.create]:
+Calling a constructor function:
+
+ const child = new Human();
+is (nearly) the same as:
+
+ const child = Object.create(Human.prototype);
+ Human.call(child);
+
+ [why use object.create on a prototype?]:
+ If you do
+
+Student.prototype = Person.prototype;
+and next move try to extend it:
+
+Student.prototype.a = function(....
+You will be affecting Person.prototype as well(since it's strictly the same exact object after assignment)
+Object.create (and even new Animal) add one level of indirection to the inheritance 
+by creating a new object which inherits from Animal.prototype and that new object becomes Dog.prototype.(more at : https://stackoverflow.com/questions/17392857/benefits-of-using-object-create-for-inheritance)
 */
 
 /// general function
@@ -152,6 +172,9 @@ const person = {
   add();
 
   /// function prototype
+  //Note The prototype object (.prototype) is meant to be used on constructor functions, 
+  //basically functions that will be called using the new operator to create new object instances.
+  // object literal e.x: test = { "name": 12 } wont need or have .prototype. Object literal inheritance can be achieve using Object.create(objectname) instead
   function PersonTestProto(first, last, age, eyecolor) {
     this.firstName = first;
     this.lastName = last;
@@ -164,6 +187,7 @@ const person = {
 
   //PersonTestProto.father = "michael" Note: not valid cannot add to function constructor like this must ass to constructor definition itself
   PersonTestProto.prototype.nationality = "English"; // valid way to add to function constructor by using prototype
+  PersonTestProto.mother = "mom" // this is invalid way it will become undefined, if we have an object instance after using 'new' we can add instance property directly without prototype, but it will not be inheritable
   PersonTestProto.prototype.name = function() {
     return this.firstName + " " + this.lastName;
   };
@@ -185,3 +209,46 @@ const person = {
   
   console.log(gen.next().value);
   // expected output: 20
+
+  // function with variable argument as array
+
+  let varArr = [1,2,3,4,5,6];
+  let textVarArr = '';
+  function sum(...arr){
+    arr.forEach((value,index, array)=>{
+      textVarArr += array[index];
+    })
+  }
+  console.log(varArr);
+
+
+/// function constructor inheritance
+//'new' actually runs constructor code, whereas 'Object.create' will not execute the constructor code
+  function animal(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+animal.prototype.canRun = function () {
+    console.log('yes ' + this.name + ' can run !');
+}
+
+var dog = new animal('foo', 5);
+dog.canRun();
+
+var cat = new animal('koo', 3);
+cat.canRun();
+function human(name, age, money) {
+    animal.call(this, name, age); // this is also needed
+    this.money = money;
+}
+
+human.prototype = Object.create(animal.prototype); // use this to inherit,  new <x> is basically Object.create(X.prototype) (note at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+
+human.prototype.canEarn = function () {
+    console.log('yes ' + this.name + 'can earn');
+}
+// human.prototype.__proto__ = animal.prototype;
+var h1 = new human('dj', 30, '2000 $');
+h1.canRun();
+h1.canEarn();
