@@ -21,6 +21,7 @@ for (const x of "hello") {
 console.log(x)
 }
 
+
 ///loop over array
 for (const x of [1,2,3,4,5]) {
 console.log(x)

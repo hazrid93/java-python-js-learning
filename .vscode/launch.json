@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_1.Main",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReflectAnnotation_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.reflection.ReflectAnnotation_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "com.azad.core.java.App",
