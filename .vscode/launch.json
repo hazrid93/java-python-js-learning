@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DeadLock",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.multithreaded.synchronize.DeadLock",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_1.Main",
