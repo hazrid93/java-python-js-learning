@@ -125,3 +125,35 @@ Java language supports few special escape sequences for String and char literals
 \ddd	    Octal character (ddd)
 \uxxxx	    Hexadecimal UNICODE character (xxxx)
 ```
+
+## Java primitive default value
+The Java type system is two-fold, consisting of eight primitive data types (boolean, byte, char, short, int, long, float, double), and object reference types.
+
+Primitives in Java can’t be uninitialized or null, they always have a default value. It represents 0, suitable for the specific data type:
+
+```
+ Primitive | Default Value 
+-----------|--------------- 
+ boolean   | false
+ byte      | 0
+ char      | '\u0000'
+ short     | 0
+ int       | 0
+ long      | 0l
+ float     | 0.0f
+ double    | 0.0d
+```
+
+### Primitive wrapper class
+```
+ Primitive | Wrapper | Superclass
+-----------|---------|------------
+ boolean   | Boolean | Object
+ byte      | Byte    | Number
+ char      | Char    | Object
+ short     | Short   | Number
+ int       | Int     | Number
+ long      | Long    | Number
+ float     | Float   | Number
+ double    | Double  | Number
+ ```

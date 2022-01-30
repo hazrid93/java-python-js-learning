@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ColToArray_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_11.col_to_array.ColToArray_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch httpclient_1",
             "request": "launch",
             "mainClass": "com.azad.core.java.java_11.httpclient.httpclient_1",
