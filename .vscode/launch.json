@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch httpclient_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_11.httpclient.httpclient_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch file_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_11.file_api.file_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch string_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_11.string_api.string_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch base64_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.base64.base64_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch With_Zone",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.date_time.With_Zone",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch No_Zone",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.date_time.No_Zone",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch optional_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.optional.optional_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch stream_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.stream.stream_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch default_method_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.default_method.default_method_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch predicate_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.predicate.predicate_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch reference",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.method_reference.reference",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.lambda.lambda",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch DeadLock",
             "request": "launch",
             "mainClass": "com.azad.core.java.multithreaded.synchronize.DeadLock",
