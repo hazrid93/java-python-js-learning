@@ -1,4 +1,4 @@
-### Inner class
+# Inner class
 
-- Diagram <br/>
-[[inner_classes.jpg|Diagram]] 
+## Diagram
+![Diagram](inner_classes.jpg)
