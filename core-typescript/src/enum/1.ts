@@ -3,13 +3,14 @@ assigned numeric values when they are stored. The first value always takes the n
 while the other values in the enum are incremented by 1.
 */
 enum PrintMedia {
-    Newspaper,
-    Newsletter,
-    Magazine,
-    Book
+    Newspaper = 0,
+    Newsletter = 2,
+    Magazine = 1,
+    Book = "Hello"
 }
 
 // ways to get enum value or name
+console.log(PrintMedia["Magazine"]);
 PrintMedia.Magazine;   // returns  3
 PrintMedia["Magazine"];// returns  3
 PrintMedia[3];         // returns  Magazine (the name of enum) possible by reverse mapping

@@ -1,7 +1,5 @@
 {
     "jupyter.jupyterServerType": "local",
-    "wolf.disableHotModeWarning": true,
-    "compile-hero.disable-compile-files-on-did-save-code": true,
     "java.dependency.packagePresentation": "hierarchical",
     "java.configuration.updateBuildConfiguration": "automatic"
 }
