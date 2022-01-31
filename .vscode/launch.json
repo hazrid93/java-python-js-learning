@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch find_max_even",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.find_max_even",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch max_consecutive",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.max_consecutive",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch create_array",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.create_array",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch ColToArray_1",
             "request": "launch",
             "mainClass": "com.azad.core.java.java_11.col_to_array.ColToArray_1",

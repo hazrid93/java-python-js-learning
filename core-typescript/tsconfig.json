@@ -2,8 +2,11 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
         "rootDir": "src",
         "outDir": "build",
-        "sourceMap": true
-    },
+        "sourceMap": true,
+        "esModuleInterop": false
+    }
   }
