@@ -1,4 +1,4 @@
-package com.azad.core.java.leetcodes.tutorials.array;
+package com.azad.core.java.leetcodes.tutorials.array.problems.q1295;
 
 //Find Numbers with Even Number of Digits
 public class find_max_even {

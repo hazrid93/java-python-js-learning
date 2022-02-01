@@ -1,0 +1,78 @@
+package com.azad.core.java.leetcodes.tutorials.graph.problems.q1971;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+// using BFS queue
+public class find_path_exist_bfs{
+    private boolean seen;
+    
+    public static void main(String[] args) {
+        find_path_exist_dfs solution = new find_path_exist_dfs();
+        int n = 5;
+        int[][] edges = {
+            {0,1},
+            {1,2},
+            {2,0},
+            {2,3},
+            {3,4}
+        };
+        int source = 0;
+        int destination = 2;
+
+        boolean result = solution.validPath(n, edges, source, destination);
+        System.out.println(result);
+
+    }
+
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        // default boolean false for node visited
+        boolean[] visited = new boolean[n];
+        // adjacency list e.x 
+        // (0 -> 1),
+        // (1 -> 2,3),
+        // (2 -> 0)
+        List<List<Integer>> graph = new ArrayList<>();
+
+        for(int i=0;i<n;i++){
+            graph.add(new ArrayList<Integer>());
+        }
+
+        // build graph with bidirectional edge
+        for(int[] edge : edges){
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(source);
+        while(!queue.isEmpty()){
+            int node = queue.poll();
+
+            if (source == destination){
+                return true;
+            }
+
+            // if already visited skip
+            if(visited[node]){ 
+                continue;
+            }
+            
+            // since haven't visited, mark it visited
+            visited[node] = true;
+
+            for(int neighbour : graph.get(node)){
+                queue.add(neighbour);
+            }
+
+        }
+
+        return false;
+    }
+
+}

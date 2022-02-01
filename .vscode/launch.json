@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch find_path_exist_bfs",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_bfs",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Disjoint_2",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_2",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_path_exist_dfs_2",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_dfs_2",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_path_exist_dfs",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_dfs",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Disjoint_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_1",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
             "name": "Launch find_max_even",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.tutorials.array.find_max_even",
