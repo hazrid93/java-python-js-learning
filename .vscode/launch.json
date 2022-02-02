@@ -6,178 +6,59 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch find_path_exist_bfs",
+            "name": "Launch BinarySearch3",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_bfs",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_search.BinarySearch3",
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch Disjoint_2",
+            "name": "Launch BinarySearch2",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_2",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_search.BinarySearch2",
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch find_path_exist_dfs_2",
+            "name": "Launch BinarySearch1",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_dfs_2",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_search.BinarySearch1",
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch find_path_exist_dfs",
+            "name": "Launch PostOrderTraversal",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_dfs",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_tree.PostOrderTraversal",
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch Disjoint_1",
+            "name": "Launch OuterClass",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_1",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.basic.inner_class.OuterClass",
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch find_max_even",
+            "name": "Launch preorder_traversal",
             "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.find_max_even",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch max_consecutive",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.max_consecutive",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch create_array",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.create_array",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch ColToArray_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_11.col_to_array.ColToArray_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch httpclient_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_11.httpclient.httpclient_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch file_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_11.file_api.file_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch string_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_11.string_api.string_1",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_tree.preorder_traversal",
+            "projectName": "core-java"
         },
         {
             "type": "java",
             "name": "Launch base64_1",
             "request": "launch",
             "mainClass": "com.azad.core.java.java_8.base64.base64_1",
-            "projectName": "test"
+            "projectName": "core-java"
         },
         {
             "type": "java",
-            "name": "Launch With_Zone",
+            "name": "Launch InorderTraversal",
             "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.date_time.With_Zone",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch No_Zone",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.date_time.No_Zone",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch optional_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.optional.optional_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch stream_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.stream.stream_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch default_method_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.default_method.default_method_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch predicate_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.predicate.predicate_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch reference",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.method_reference.reference",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch lambda",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.java_8.lambda.lambda",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch DeadLock",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.multithreaded.synchronize.DeadLock",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_1.Main",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReflectAnnotation_1",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.reflection.ReflectAnnotation_1",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "com.azad.core.java.App",
-            "projectName": "test"
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_tree.InorderTraversal",
+            "projectName": "core-java"
         },
         {
             "name": "Python: Current File",
