@@ -1,6 +1,8 @@
 # Binary search
 
 # Template
+more discussion on template at [link](https://leetcode.com/discuss/explore/binary-search/744369/Can't-really-understand-the-difference-between-these-3-templates.)
+
 Template Explanation:
 
 99% of binary search problems that you see online will fall into 1 of these 3 templates. Some problems can be implemented using multiple templates, but as you practice more, you will notice that some templates are more suited for certain problems than others.

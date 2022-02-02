@@ -1,8 +1,6 @@
 package com.azad.core.java.leetcodes.tutorials.binary_search;
 
-// Template #2 is an advanced form of Binary Search. 
-// It is used to search for an element or condition which requires 
-// accessing the current index and its immediate right neighbor's index in the array.
+// Template #3
 public class BinarySearch3{
     public static void main(String[] args){
         BinarySearch1 bin = new BinarySearch1();
