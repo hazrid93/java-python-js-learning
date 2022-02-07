@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/hazrid93/python-js-learning#readme",
   "dependencies": {
-    "@alch/alchemy-web3": "^1.1.9",
     "dotenv": "^16.0.0",
     "utility": "^1.17.0"
   },
