@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CircularQueue1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.queue_stack.CircularQueue1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.queue_stack.Queue1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearch3",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_search.BinarySearch3",
