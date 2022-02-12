@@ -9,6 +9,7 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.stream.Stream;
 
+// QUEUE implementation
 /** 
  * 
  * [PROBLEM STATEMENT]
@@ -19,6 +20,8 @@ import java.util.stream.Stream;
  * You may assume all four edges of the grid are all surrounded by water.
  *
  */ 
+
+ // <TODO> this mostly work well but there are fail test case on leetcode, revisit later
 public class NumberOfIslands {
     public static void main(String[] args){
         NumberOfIslands sol = new NumberOfIslands();
