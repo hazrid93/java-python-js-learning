@@ -1,10 +1,12 @@
-package com.azad.core.java.leetcodes.tutorials.binary_tree;
+package com.azad.core.java.leetcodes.tutorials.binary_tree.problems.q94;
 
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
+
+import com.azad.core.java.leetcodes.tutorials.binary_tree.TreeNode;
 
 // inorder with stack 
 public class InorderTraversal {

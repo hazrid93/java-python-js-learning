@@ -1,6 +1,7 @@
-package com.azad.core.java.leetcodes.tutorials.queue_stack.queue;
+package com.azad.core.java.leetcodes.tutorials.queue_stack.problems.q622;
 
 // custom circular queue
+// fail a testcase in leetcode check in future
 public class CircularQueue1 {
     private class MyCircularQueue {
         int[] arr;

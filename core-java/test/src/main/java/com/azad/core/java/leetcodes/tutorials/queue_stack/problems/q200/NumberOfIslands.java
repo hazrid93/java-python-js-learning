@@ -1,4 +1,4 @@
-package com.azad.core.java.leetcodes.tutorials.queue_stack.queue;
+package com.azad.core.java.leetcodes.tutorials.queue_stack.problems.q200;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

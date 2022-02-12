@@ -1,8 +1,10 @@
-package com.azad.core.java.leetcodes.tutorials.binary_tree;
+package com.azad.core.java.leetcodes.tutorials.binary_tree.problems.q144;
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.azad.core.java.leetcodes.tutorials.binary_tree.TreeNode;
 
 // preorder with stack
 public class preorder_traversal {
