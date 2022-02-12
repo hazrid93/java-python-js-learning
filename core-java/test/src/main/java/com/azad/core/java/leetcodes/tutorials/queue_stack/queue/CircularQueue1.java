@@ -1,4 +1,4 @@
-package com.azad.core.java.leetcodes.tutorials.queue_stack;
+package com.azad.core.java.leetcodes.tutorials.queue_stack.queue;
 
 // custom circular queue
 public class CircularQueue1 {
