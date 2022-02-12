@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberOfIslands",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.queue_stack.NumberOfIslands",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch CircularQueue1",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.tutorials.queue_stack.CircularQueue1",

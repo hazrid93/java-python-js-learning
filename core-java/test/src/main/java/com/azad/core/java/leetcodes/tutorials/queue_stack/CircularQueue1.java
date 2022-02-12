@@ -1,5 +1,6 @@
 package com.azad.core.java.leetcodes.tutorials.queue_stack;
 
+// custom circular queue
 public class CircularQueue1 {
     private class MyCircularQueue {
         int[] arr;
