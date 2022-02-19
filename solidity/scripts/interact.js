@@ -25,7 +25,7 @@ async function main() {
     console.log("The message is: " + message);
 
     console.log("Updating the message...");
-    const tx = await helloWorldContract.update("this is the new message");
+    const tx = await helloWorldContract.update("hello");
     // make a call to .wait() on the returned transaction object. 
     // This ensures that our script waits for the transaction to be mined on the blockchain before proceeding onwards
     await tx.wait();
