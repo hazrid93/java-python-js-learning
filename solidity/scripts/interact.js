@@ -1,5 +1,5 @@
 const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') })
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
 const { ROP_API_KEY, PRIVATE_KEY } = process.env;
 
 // helloworld.sol in ropsten address

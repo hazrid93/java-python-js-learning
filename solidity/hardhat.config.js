@@ -3,7 +3,8 @@
  */
 
 const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
+require("./tasks/faucet");
+require('dotenv').config({ path: path.resolve(__dirname, './.env') })
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 
