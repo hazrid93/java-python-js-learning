@@ -16,9 +16,11 @@ require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
   solidity: "0.7.3",
-  defaultNetwork: "ropsten",
+  defaultNetwork: "hardhat",
    networks: {
-      hardhat: {},
+      hardhat: {
+        chainId: 1337
+      },
       ropsten: {
          url: ROP_API_URL,
          accounts: [`0x${PRIVATE_KEY}`]
