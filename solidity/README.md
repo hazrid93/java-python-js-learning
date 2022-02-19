@@ -35,3 +35,8 @@ npx hardhat compile
 ```
 npx hardhat node
 ```
+
+# More README at:
+:boom: [alchemy-tutorial-hello-world](./others_project/alchemy-tutorial-hello-world/README.md)
+
+:boom: [hardhat-hackathon-boilerplate-master](./others_project/hardhat-hackathon-boilerplate-master/README.md)
