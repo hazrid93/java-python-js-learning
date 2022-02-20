@@ -4,8 +4,9 @@ package com.azad.core.java.leetcodes.tutorials.binary_search;
 public class BinarySearch1 {
     public static void main(String[] args){
         BinarySearch1 bin = new BinarySearch1();
-        int[] question = {23,25,26,29,32,40,41,45,51};
-        int sol = bin.binarySearch(question, 40);
+       // int[] question = {23,25,26,29,32,40,41,45,51};
+        int[] question = {23,25};
+        int sol = bin.binarySearch(question, 25);
         System.out.println(sol);
     }
 

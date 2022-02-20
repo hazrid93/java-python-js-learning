@@ -1,4 +1,4 @@
-package com.azad.core.java.basic;
+package com.azad.core.java.basic.randomstuff;
 
 public class test {
     public static void main(String[] args){

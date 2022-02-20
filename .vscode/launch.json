@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.problems.q278_first_bad_version.Solution2",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.problems.q278_first_bad_version.Solution",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.problems.q704_binary_search.Solution",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch SafeLock",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.multithreaded.synchronize.SafeLock",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProducerConsumer",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.multithreaded.synchronize.ProducerConsumer",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeadLock",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.multithreaded.synchronize.DeadLock",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.basic.randomstuff.test",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch predicate_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.java_8.predicate.predicate_1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "com.azad.core.java.basic.test",

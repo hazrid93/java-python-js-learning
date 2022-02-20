@@ -21,29 +21,19 @@ public class SafeLock {
         public boolean impendingBow(Friend bower) {
             Boolean myLock = false;
             Boolean yourLock = false;
-            try {
-                myLock = lock.tryLock();
-                yourLock = bower.lock.tryLock();
-            } finally {
-                if (! (myLock && yourLock)) {
-                    if (myLock) {
-                        lock.unlock();
-                    }
-                    if (yourLock) {
-                        bower.lock.unlock();
-                    }
-                }
-            }
+            myLock = lock.tryLock();
+            yourLock = bower.lock.tryLock();
             return myLock && yourLock;
         }
 
         public void bow(Friend bower) {
             if (impendingBow(bower)) {
                 try {
+                    Thread.sleep(new Random().nextInt(1000));
                     System.out.format("%s: %s has"
                                     + " bowed to me!%n",
                             this.name, bower.getName());
-                    bower.bowBack(this);
+                } catch(Exception e){
                 } finally {
                     lock.unlock();
                     bower.lock.unlock();
@@ -57,11 +47,6 @@ public class SafeLock {
             }
         }
 
-        public void bowBack(Friend bower) {
-            System.out.format("%s: %s has" +
-                            " bowed back to me!%n",
-                    this.name, bower.getName());
-        }
     }
 
     static class BowLoop implements Runnable {
@@ -77,7 +62,7 @@ public class SafeLock {
             Random random = new Random();
             for (;;) {
                 try {
-                    Thread.sleep(random.nextInt(10));
+                    Thread.sleep(random.nextInt(1000));
                 } catch (InterruptedException e) {}
                 bowee.bow(bower);
             }

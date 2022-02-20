@@ -23,7 +23,7 @@ class DataDrop {
         return message;
     }
 
-    public synchronized  void put(String message){
+    public synchronized void put(String message){
         while(!empty){
             try{
                 wait();
