@@ -12,6 +12,8 @@ npx hardhat run scripts/deploy.js
 npx hardhat run scripts/interact.js
 
 ```
+Note: running ```npx run``` without -network if in config is defaulted to hardhat network then it is just an instance that will be destroyed after running. To have an instance that persist temporarily run ```npx hardhat node``` and do npx run with '-network localhost' this will persist as long as the node process still running.
+
 ## verify contract at etherscan
 Note: the argument must be the argument we passed during contract creating *in constructor
 
@@ -25,6 +27,16 @@ npx hardhat verify --network ropsten <DEPLOYED_CONTRACT_ADDRESS> 'Hello World!'
 npx hardhat verify --constructor-args ./scripts/arguments.js 0xB621093D85FCFa34610574823ec16C84cB1E4Bc8
 
 ```
+# DOCS
+[web3.js docs](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#)
+[Solidity official doc](https://docs.soliditylang.org/en/v0.8.4/contracts.html)
+[Chai with solidity plugin](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
+[Hardhat docs](https://hardhat.org/getting-started/)
+[Ethers.js](https://docs.ethers.io/v5/getting-started/)
+[Metamask API](https://docs.metamask.io/guide/ethereum-provider.html#table-of-contents)
+[Alchemy dashboard](https://dashboard.alchemyapi.io/)
+[Alchemy composer](https://composer.alchemyapi.io/)
+[alchemy/web3 docs](https://docs.alchemy.com/alchemy/documentation/alchemy-web3)
 
 ## compile sol
 ```

@@ -6,7 +6,7 @@ import {
   updateMessage,
   loadCurrentMessage,
   getCurrentWalletConnected,
-} from "./util/interact.js";
+} from "./util/interact_alchemyweb3_rop.js";
 
 import alchemylogo from "./alchemylogo.svg";
 

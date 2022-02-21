@@ -1,3 +1,5 @@
+// note for metamask methods from window.ethereum.xxx refer: https://docs.metamask.io/guide/ethereum-provider.html
+
 import React from "react";
 import { useEffect, useState } from "react";
 import {
@@ -6,7 +8,7 @@ import {
   updateMessage,
   loadCurrentMessage,
   getCurrentWalletConnected,
-} from "./util/interact.js";
+} from "./util/interact_web3_rop.js";
 
 import alchemylogo from "./umaru.png";
 
