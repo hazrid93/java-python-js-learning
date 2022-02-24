@@ -1,0 +1,16 @@
+pragma solidity ^0.8.0;
+
+// We import this library to be able to use console.log
+import "hardhat/console.sol";
+
+//Constants are variables that cannot be modified.
+
+//Their value is hard coded and using constants can save gas cost.
+contract Constants {
+    // coding convention to make constant uppercases
+    address public constant MY_ADDRESS = 0x0000000000000000000000000000000000000000;
+    uint public constant MY_UINT = 123;
+    
+    constructor(){
+    }
+}

@@ -37,6 +37,12 @@ npx hardhat verify --constructor-args ./scripts/arguments.js 0xB621093D85FCFa346
 [Alchemy dashboard](https://dashboard.alchemyapi.io/)
 [Alchemy composer](https://composer.alchemyapi.io/)
 [alchemy/web3 docs](https://docs.alchemy.com/alchemy/documentation/alchemy-web3)
+[Chai.js basic usage](https://www.chaijs.com/guide/styles/#expect)
+
+# TUTORIALS
+[example app-renting house](https://www.loginradius.com/blog/async/guest-post/ethereum-smart-contract-tutorial/)
+[solidity by example](https://solidity-by-example.org/)
+[handson smart contract](https://blockchain-conf.github.io/files/blockchain-hands-on-Tutorial.pdf)
 
 ## compile sol
 ```

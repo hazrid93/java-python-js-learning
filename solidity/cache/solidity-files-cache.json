@@ -1,79 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\codes\\github\\python-js-learning\\solidity\\contracts\\HelloWorld.sol": {
-      "lastModificationDate": 1644509825902,
-      "contentHash": "2f48fb87de1871b2d9e4085eccb2d5f9",
-      "sourceName": "contracts/HelloWorld.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.3"
-      ],
-      "artifacts": [
-        "HelloWorld"
-      ]
-    },
-    "C:\\codes\\github\\python-js-learning\\solidity\\contracts\\Box.sol": {
-      "lastModificationDate": 1645462452835,
-      "contentHash": "7e4bb965e4c8f61859b61bd94812a52e",
-      "sourceName": "contracts/Box.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Box"
-      ]
-    },
     "C:\\codes\\github\\python-js-learning\\solidity\\node_modules\\hardhat\\console.sol": {
       "lastModificationDate": 1644496532583,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
@@ -107,41 +34,6 @@
       ],
       "artifacts": [
         "console"
-      ]
-    },
-    "C:\\codes\\github\\python-js-learning\\solidity\\contracts\\Auth.sol": {
-      "lastModificationDate": 1645455562038,
-      "contentHash": "61104bc77d07a99d55773cbd3a1c7bbc",
-      "sourceName": "contracts/Auth.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Auth"
       ]
     },
     "C:\\codes\\github\\python-js-learning\\solidity\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
@@ -214,6 +106,43 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "C:\\codes\\github\\python-js-learning\\solidity\\contracts\\SimpleStorage.sol": {
+      "lastModificationDate": 1645623814452,
+      "contentHash": "5f34c96b8c23048e8f0dd60a5df2dce3",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleStorage"
       ]
     }
   }
