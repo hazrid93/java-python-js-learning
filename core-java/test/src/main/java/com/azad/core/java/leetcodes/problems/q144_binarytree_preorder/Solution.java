@@ -1,15 +1,12 @@
-package com.azad.core.java.leetcodes.tutorials.binary_tree.problems.q144;
+package com.azad.core.java.leetcodes.problems.q144_binarytree_preorder;
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.azad.core.java.leetcodes.tutorials.binary_tree.TreeNode;
-
-// preorder with stack
-public class preorder_traversal {
+public class Solution {
     public static void main(String[] args) {
-        preorder_traversal sol = new preorder_traversal();
+        Solution sol = new Solution();
         TreeNode root = new TreeNode(1);
         TreeNode right5 = new TreeNode(5);
         TreeNode right6 = new TreeNode(6);
@@ -45,4 +42,3 @@ public class preorder_traversal {
         return result;
     }
 }
-

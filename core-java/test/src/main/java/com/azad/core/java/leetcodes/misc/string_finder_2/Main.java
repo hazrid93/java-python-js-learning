@@ -37,7 +37,7 @@ public class Main {
                         while(!Thread.interrupted()) {
                             // execute tasks...
                             System.out.println(" x: " + x);
-                            if(x == 300) {
+                            if(x == 12) {
                                 Thread.currentThread().interrupt();
                                 System.out.println("Thread 1 interrupted from running ");
                             }

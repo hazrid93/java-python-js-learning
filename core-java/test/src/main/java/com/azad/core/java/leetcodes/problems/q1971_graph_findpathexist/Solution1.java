@@ -1,19 +1,16 @@
-package com.azad.core.java.leetcodes.tutorials.graph.problems.q1971;
+package com.azad.core.java.leetcodes.problems.q1971_graph_findpathexist;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-// using BFS queue
-public class find_path_exist_bfs{
+// solve using queue BFS
+public class Solution1 {
     private boolean seen;
     
     public static void main(String[] args) {
-        find_path_exist_dfs solution = new find_path_exist_dfs();
+        Solution1 solution = new Solution1();
         int n = 5;
         int[][] edges = {
             {0,1},
@@ -74,5 +71,4 @@ public class find_path_exist_bfs{
 
         return false;
     }
-
 }

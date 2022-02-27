@@ -1,18 +1,12 @@
-package com.azad.core.java.leetcodes.tutorials.binary_tree.problems.q94;
+package com.azad.core.java.leetcodes.problems.q94_binarytree_inorder;
 
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-import com.azad.core.java.leetcodes.tutorials.binary_tree.TreeNode;
-
-// inorder with stack 
-public class InorderTraversal {
-
+public class Solution {
     public static void main(String[] args) {
-        InorderTraversal sol = new InorderTraversal();
+        Solution sol = new Solution();
         TreeNode root = new TreeNode(1);
         TreeNode right5 = new TreeNode(5);
         TreeNode right6 = new TreeNode(6);
@@ -50,5 +44,3 @@ public class InorderTraversal {
         return result;
     }
 }
-
-

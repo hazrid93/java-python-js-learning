@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Stack;
 
 public class TextGenerator {
-    private static final int wordCount = 10;
+    private static final int wordCount = 100;
     /**
      * @return return a thread safe {@link Stack} with String to process
      */

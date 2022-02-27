@@ -1,13 +1,13 @@
-package com.azad.core.java.leetcodes.tutorials.graph.problems.q1971;
+package com.azad.core.java.leetcodes.problems.q1971_graph_findpathexist;
 
 import java.util.HashSet;
 
 // using DFS recursion
-public class find_path_exist_dfs {
+public class Solution3 {
     private boolean seen;
     
     public static void main(String[] args) {
-        find_path_exist_dfs solution = new find_path_exist_dfs();
+        Solution3 solution = new Solution3();
         int n = 5;
         int[][] edges = {
             {0,1},

@@ -1,13 +1,7 @@
-package com.azad.core.java.leetcodes.tutorials.queue_stack.problems.q200;
+package com.azad.core.java.leetcodes.problems.q200_number_of_island;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Set;
-import java.util.stream.Stream;
 
 // QUEUE implementation
 /** 
@@ -22,9 +16,9 @@ import java.util.stream.Stream;
  */ 
 
  // <TODO> this mostly work well but there are fail test case on leetcode, revisit later
-public class NumberOfIslands {
+public class Solution {
     public static void main(String[] args){
-        NumberOfIslands sol = new NumberOfIslands();
+        Solution sol = new Solution();
         // 1. start from [0][0]
         // 2. BFS nearest neighbour, before adding neighbor change current one to 'x' to mark as visited, then remove current one from queue
         // 3. keep adding to queue, also change

@@ -1,17 +1,16 @@
-package com.azad.core.java.leetcodes.tutorials.graph.problems.q1971;
+package com.azad.core.java.leetcodes.problems.q1971_graph_findpathexist;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
-import java.util.HashSet;
 import java.util.List;
 
 // using DFS stack 
-public class find_path_exist_dfs_2 {
+public class Solution2 {
     private boolean seen;
     
     public static void main(String[] args) {
-        find_path_exist_dfs solution = new find_path_exist_dfs();
+        Solution2 solution = new Solution2();
         int n = 5;
         int[][] edges = {
             {0,1},

@@ -1,18 +1,12 @@
-package com.azad.core.java.leetcodes.tutorials.binary_tree.problems.q145;
+package com.azad.core.java.leetcodes.problems.q145_binarytree_postorder;
 
-import java.util.ArrayList;
-import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-import com.azad.core.java.leetcodes.tutorials.binary_tree.TreeNode;
-
-// postorder with stack 
-public class PostOrderTraversal {
-
+public class Solution {
     public static void main(String[] args) {
-        PostOrderTraversal sol = new PostOrderTraversal();
+        Solution sol = new Solution();
         TreeNode root = new TreeNode(1);
         TreeNode right5 = new TreeNode(5);
         TreeNode right6 = new TreeNode(6);
@@ -52,5 +46,3 @@ public class PostOrderTraversal {
         return ans;
     }
 }
-
-

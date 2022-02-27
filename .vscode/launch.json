@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_2.Main",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_1.Main",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Disjoint_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_path_exist_dfs",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.problems.q1971.find_path_exist_dfs",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch max_consecutive",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.array.problems.q485.max_consecutive",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch Solution2",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.problems.q278_first_bad_version.Solution2",
