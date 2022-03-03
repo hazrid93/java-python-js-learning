@@ -107,3 +107,8 @@ most likely question to appear
 - Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/
 - Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
 ```
+
+# Note
+[leetcode study resource](https://github.com/seanprashad/leetcode-patterns)
+[leetcode guide from users list](https://leetcode.com/discuss/study-guide/1367727/Links-to-Some-Great-post-in-Study-Guide)
+[leetcode youtube playlist](https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=1)

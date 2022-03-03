@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.problems.q344_reversestring.Solution",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.recursion.ReverseString",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySort",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.recursion.ArraySort",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintValue",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.recursion.PrintValue",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.misc.string_finder_2.Main",

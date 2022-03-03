@@ -1,3 +1,9 @@
+# Traversal Techniques
+- DFS
+- BFS </br>
+
+Note : graph traversal is similar like tree but with awareness of explored nodes since graph can be unidirectional and visited array is used in graph to avoid processing of the same node again.
+
 # Graph types
 
 ## Types of “graphs”
@@ -41,3 +47,8 @@ Each edge in a “weighted graph” has an associated weight. The weight can be 
 > In-Degree: “in-degree” is a concept in directed graphs. If the in-degree of a vertex is d, there are d directional edges incident to the vertex. In Figure 2, A’s indegree is 1, i.e., the edge from F to A.
 
 > Out-Degree: “out-degree” is a concept in directed graphs. If the out-degree of a vertex is d, there are d edges incident from the vertex. In Figure 2, A’s outdegree is 3, i,e, the edges A to B, A to C, and A to G.
+
+# Notes
+[graph notes](https://leetcode.com/discuss/general-discussion/1122034/important-graph-algorithm-notes-for-interview)
+[graph algos notes](https://leetcode.com/discuss/general-discussion/969327/Graph-Algorithms-One-Place-or-Dijkstra-or-Bellman-Ford-or-Floyd-Warshall-or-Prims-or-Kruskals-or-DSU)
+[extra graph algo explanation](https://leetcode.com/discuss/study-guide/1326900/graph-algorithms-problems-to-practice)

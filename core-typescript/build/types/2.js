@@ -2,8 +2,8 @@
 // will gives error if any property of Todo (id,text,done) is not define
 var foo = {
     id: 1,
-    text: ''
-    //done: true //compiler will complain
+    text: '',
+    done: true //compiler will complain if remove this
 };
 // using Todo type inside function argument
 // input is Todo type, return is also Todo type
@@ -58,7 +58,7 @@ There are many built-in mapped types (like Required<...>, Partial<...>, etc).
 */
 // try redefine toggleTodoBad again using Todo2 
 function toggleTodoBad2(todo) {
-    todo.done = !todo.done; // compiler will warn about assigning new value
+    // todo.done = !todo.done // compiler will warn about assigning new value
     return todo;
 }
 //# sourceMappingURL=2.js.map
