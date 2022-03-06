@@ -27,6 +27,16 @@ npx hardhat verify --network ropsten <DEPLOYED_CONTRACT_ADDRESS> 'Hello World!'
 npx hardhat verify --constructor-args ./scripts/arguments.js 0xB621093D85FCFa34610574823ec16C84cB1E4Bc8
 
 ```
+
+# RUN AT REMIX
+- npm install -g @remix-project/remixd
+- run ```
+remixd -s <absolute-path-to-the-shared-folder> --remix-ide <your-remix-ide-URL-instance>
+e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://remix.ethereum.org
+
+```
+- open remix at browser and connect to localhost
+- Optional: run hardhat locally and connect from remix to use local hardhat node 'npx hardhat node' at http://127.0.0.1:8545/
 # DOCS
 [web3.js docs](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#)
 [Solidity official doc](https://docs.soliditylang.org/en/v0.8.4/contracts.html)
@@ -43,6 +53,8 @@ npx hardhat verify --constructor-args ./scripts/arguments.js 0xB621093D85FCFa346
 [example app-renting house](https://www.loginradius.com/blog/async/guest-post/ethereum-smart-contract-tutorial/)
 [solidity by example](https://solidity-by-example.org/)
 [handson smart contract](https://blockchain-conf.github.io/files/blockchain-hands-on-Tutorial.pdf)
+[solidity cheatsheet](https://reference.auditless.com/cheatsheet/)
+[solidity high level doc from ethereum](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/)
 
 ## compile sol
 ```
