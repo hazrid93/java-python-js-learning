@@ -48,6 +48,8 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 [Alchemy composer](https://composer.alchemyapi.io/)
 [alchemy/web3 docs](https://docs.alchemy.com/alchemy/documentation/alchemy-web3)
 [Chai.js basic usage](https://www.chaijs.com/guide/styles/#expect)
+[remix IDE doc](https://remix-ide.readthedocs.io/en/latest/%5C/hardhat_console.html)
+[info about solidity ABI](https://medium.com/@eiki1212/explaining-ethereum-contract-abi-evm-bytecode-6afa6e917c3b,  https://ethereum.stackexchange.com/questions/234/what-is-an-abi-and-why-is-it-needed-to-interact-with-contracts) // note: the ABI are not only use for external->smartcontract but also smartcontract->smartcontract, hence there are use cases of keccak256 with abi.encode inside smartcontract,
 
 # TUTORIALS
 [example app-renting house](https://www.loginradius.com/blog/async/guest-post/ethereum-smart-contract-tutorial/)
@@ -55,6 +57,9 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 [handson smart contract](https://blockchain-conf.github.io/files/blockchain-hands-on-Tutorial.pdf)
 [solidity cheatsheet](https://reference.auditless.com/cheatsheet/)
 [solidity high level doc from ethereum](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/)
+[uniswap code walkthrough](https://ethereum.org/bg/developers/tutorials/uniswap-v2-annotated-code/#introduction)
+
+Note: remix IDE has some tutorials to learn erc20/721 can use that to  learn.
 
 ## compile sol
 ```
