@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "div",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"add(uint256,uint256)": {
+					"details": "Add two passed numbers and check variable overflow",
+					"params": {
+						"a": "first number",
+						"b": "second number"
+					}
+				},
+				"div(uint256,uint256)": {
+					"details": "Divides two passed numbers and first check that it is not a division by zero",
+					"params": {
+						"a": "first number",
+						"b": "second number"
+					}
+				},
+				"mul(uint256,uint256)": {
+					"details": "Multiplies two passed numbers and check variable overflow",
+					"params": {
+						"a": "first number",
+						"b": "second number"
+					}
+				},
+				"sub(uint256,uint256)": {
+					"details": "Subtract two passed numbers and first check second number is greater     than first to avoid variable underflow",
+					"params": {
+						"a": "first number",
+						"b": "second number"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-2/2_SafeCalculator/SafeCalculator.sol": "Calculator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-2/2_SafeCalculator/SafeCalculator.sol": {
+			"keccak256": "0xc9aed5f54164f7ca68708d00dc7d1d372eaf12d65ff2f216d94748d61602426c",
+			"urls": [
+				"bzz-raw://f7eeb1289126d697a732376bf9f9fa238498eefc3e5d534a98a3263a4bbb6b4e",
+				"dweb:/ipfs/QmbXqjJwtccay9cJdkMHgDPrbewzzrKwzj2cpS9FrPC4NA"
+			]
+		}
+	},
+	"version": 1
+}

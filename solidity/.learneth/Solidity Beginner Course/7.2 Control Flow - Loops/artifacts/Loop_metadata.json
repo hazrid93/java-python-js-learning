@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/7.2 Control Flow - Loops/loops_answer.sol": "Loop"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/7.2 Control Flow - Loops/loops_answer.sol": {
+			"keccak256": "0x9843f09bfe3b15f012a6c0e1b3c54fc7f93868aa5d66f50e9c9111b542b78ead",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9457022e048dbcfdb0832ef2eabbcd93c26fc4035e4af373a8128e8f6458a3f6",
+				"dweb:/ipfs/QmeTQ3yUt9FJr2QeyC2VgmeBj2ZmbVXypxaF5m3nabkRq5"
+			]
+		}
+	},
+	"version": 1
+}

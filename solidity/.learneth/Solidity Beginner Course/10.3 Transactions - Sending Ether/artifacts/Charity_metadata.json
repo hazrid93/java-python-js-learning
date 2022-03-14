@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/10.3 Transactions - Sending Ether/sendingEther_answer.sol": "Charity"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/10.3 Transactions - Sending Ether/sendingEther_answer.sol": {
+			"keccak256": "0xb03cec364ca40c3e46122f669749ff948eb79b6f7bc293c26e230c0ccbbc6a8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d21d651d0051240919e6a9ca5ed57e4d3978dc2f4f20392567de5d83b5230856",
+				"dweb:/ipfs/QmQbTrnV7nEhS4WDeehpQ8brNHhaDew1J88g5VH4sEqeYw"
+			]
+		}
+	},
+	"version": 1
+}

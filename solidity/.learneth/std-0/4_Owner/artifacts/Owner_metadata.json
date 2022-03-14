@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "OwnerSet",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCurrentOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "ownerAddress",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This contract sets owner address and returns it on user demand",
+			"methods": {
+				"getCurrentOwner()": {
+					"details": "Returns current owner"
+				},
+				"setOwner(address)": {
+					"details": "Sets owner address",
+					"params": {
+						"ownerAddress": "Owner address"
+					}
+				}
+			},
+			"title": "Owner"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-0/4_Owner/Owner.sol": "Owner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-0/4_Owner/Owner.sol": {
+			"keccak256": "0x2bc1f1673f7cd6b776848c7495afe33465182dbf9abd37e537ee35dda41cf29f",
+			"urls": [
+				"bzz-raw://18ef027ded776c3a07dddbda2f385fc7b6d648d652dfb0fa8864548d7eca84b6",
+				"dweb:/ipfs/Qmd1QmjMiFiwBubEmnB3DP2PZJzTJ9ZQmnsN81a3xpobSS"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This contract stores hard coded value in the variable and returns its value on user demand",
+			"methods": {
+				"get()": {
+					"details": "Returns value of 'n'"
+				}
+			},
+			"title": "Storage"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-0/2_Storage/Storage.sol": "Storage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-0/2_Storage/Storage.sol": {
+			"keccak256": "0xfe3b390582b73f83cd77777ce1ddfa54ff3d34d2208319288b05438e6adb3b29",
+			"urls": [
+				"bzz-raw://53b6ba07d936ad56a9d7bbf877b5cadefecdbea178e9fbf7d57573e97574a54b",
+				"dweb:/ipfs/QmTzogcbpuxAZVjVkqfFggRrU1GFtPP6zSuHJ53NdbSwfY"
+			]
+		}
+	},
+	"version": 1
+}

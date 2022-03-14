@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "limit",
+						"type": "uint256"
+					}
+				],
+				"name": "addPrime",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getPrime",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"addPrime(uint256)": {
+					"details": "Add all prime numbers in range",
+					"params": {
+						"limit": "end limit of range"
+					}
+				},
+				"getPrime()": {
+					"details": "Returns all prime numbers in array"
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/5_AllPrimeNumber/AllPrimeNumber.sol": "AllPrimeNumber"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/5_AllPrimeNumber/AllPrimeNumber.sol": {
+			"keccak256": "0x353d2822cd07feca26f987e49dd9f33d0fbed6cdfe31144306403cf6cfe773ca",
+			"urls": [
+				"bzz-raw://6c1bdc37221ba0718e4859fc116a4b53b5f719719e11003db8abb9dc835f1217",
+				"dweb:/ipfs/Qmc7HPzEram4QyrimSreE32GvaSf172t93aBAjTB538QL7"
+			]
+		}
+	},
+	"version": 1
+}

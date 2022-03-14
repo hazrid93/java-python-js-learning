@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax.sol": "MyCont"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax.sol": {
+			"keccak256": "0x50988798b0cf305ea0422d9c2ba6aa0b4802c1923206b071cdde07970bc1b890",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3b3d55d1be874f5a0fa3cab7b97d2c4dc3a3ba2270551889c4673c22b56a6ea",
+				"dweb:/ipfs/QmQqcEUdJG5Hhfr5bn53yS9Nw7A1KGHwQmvYGh8ER38ihp"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,39 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "This contract sets greeting string and returns it on user demand",
+			"methods": {},
+			"title": "Greeter"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-0/3_Greeter/Greeter.sol": "Greeter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-0/3_Greeter/Greeter.sol": {
+			"keccak256": "0x5c1ff37523269902f4cb8ac2d43c53303ed5141f53bd7ddfd7c1b19dab79d017",
+			"urls": [
+				"bzz-raw://939f545f065ea695ba5976966a1c749069ea2d698121f692e4a7b8c9566bc022",
+				"dweb:/ipfs/QmdkFSgsW42HyksRQrr9r7DUuF1NaGawpjgsFx7Vdcwe6A"
+			]
+		}
+	},
+	"version": 1
+}

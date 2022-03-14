@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "getTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"getTime(uint256)": {
+					"details": "calculates future time",
+					"params": {
+						"time": "base time"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/6_Time/Time.sol": "Time"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/6_Time/Time.sol": {
+			"keccak256": "0x8e3efef4bd46944e68d2c153fd783071f3b50ab37f55196c4eee3e2a4059fc36",
+			"urls": [
+				"bzz-raw://58d0a89051173b629b1f84600288b2269c8def772a069aaacee5a53ace6ac22c",
+				"dweb:/ipfs/QmZdxph95rspCacnWhYm81WNJyHLW2jTFgQtnsDdsqVJgG"
+			]
+		}
+	},
+	"version": 1
+}

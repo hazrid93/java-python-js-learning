@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "whitelisted",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"check()": {
+					"details": "Check if address exists in whitelist array"
+				},
+				"whitelist(address)": {
+					"details": "add address in whitelist array",
+					"params": {
+						"addr": "address to add"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/7_SelfWhitelist/SelfWhitelist.sol": "SelfWhitelist"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/7_SelfWhitelist/SelfWhitelist.sol": {
+			"keccak256": "0x841110fe558b3ecb2d1f95b33ce113ab8a2b305ccd75a4f61165c91474e32adc",
+			"urls": [
+				"bzz-raw://ac70e81a98faacb9ae9ad48a49093e8cc2c010ef42b9a6d1b7ff53677d51466d",
+				"dweb:/ipfs/QmXopnsBR8w6mcbdEjweWqSHmwiaKZkY15kdTKWze4Pwhb"
+			]
+		}
+	},
+	"version": 1
+}

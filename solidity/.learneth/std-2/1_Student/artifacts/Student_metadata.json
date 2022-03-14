@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rollnumber",
+						"type": "uint256"
+					}
+				],
+				"name": "Enrolled",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollnumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "enroll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"enroll(uint256,string)": {
+					"details": "Enrolls student",
+					"params": {
+						"name": "Name of student",
+						"rollnumber": "Roll number of student"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-2/1_Student/Student.sol": "Student"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-2/1_Student/Student.sol": {
+			"keccak256": "0xf1188efa359e77cfe3f54cd7d52b1ea460c0ac5e4d61af6584b2ed8fc4a8f2d7",
+			"urls": [
+				"bzz-raw://3fd10acdaf91bc43543cde7fcb19c5f81cbf24aab149b501a6d26cb01092d188",
+				"dweb:/ipfs/QmSYjXtpKwuT4pzXjMuh93jA7WfHXZFHzW4ehqRQSdjS8P"
+			]
+		}
+	},
+	"version": 1
+}

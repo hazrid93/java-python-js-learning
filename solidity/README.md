@@ -58,6 +58,7 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 [solidity cheatsheet](https://reference.auditless.com/cheatsheet/)
 [solidity high level doc from ethereum](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/)
 [uniswap code walkthrough](https://ethereum.org/bg/developers/tutorials/uniswap-v2-annotated-code/#introduction)
+[good playlist for solidity](https://www.youtube.com/playlist?list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p)
 
 Note: remix IDE has some tutorials to learn erc20/721 can use that to  learn.
 

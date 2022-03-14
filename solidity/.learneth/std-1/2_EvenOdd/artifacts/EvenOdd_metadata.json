@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"check(int256)": {
+					"details": "Tells whether a number is even or odd",
+					"params": {
+						"num": "Number to check "
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/2_EvenOdd/EvenOdd.sol": "EvenOdd"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/2_EvenOdd/EvenOdd.sol": {
+			"keccak256": "0x916b7fa3f02eb93e3982ebe3717f025efc817b0e91488666cd3dad35d2e8a09e",
+			"urls": [
+				"bzz-raw://e55e9d8cecd6e9b1ea7d5eb3c231407ebc26db20a9920131bc405b039b07ed44",
+				"dweb:/ipfs/QmTdDdnP7eG9Hf4HuX47LXS3NGTcgDi1gn4jAeP4GagUD8"
+			]
+		}
+	},
+	"version": 1
+}

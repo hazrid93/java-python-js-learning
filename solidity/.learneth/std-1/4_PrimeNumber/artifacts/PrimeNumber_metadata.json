@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "ifPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"ifPrime(int256)": {
+					"details": "Tells whether number is prime",
+					"params": {
+						"num": "Number to check"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/4_PrimeNumber/PrimeNumber.sol": "PrimeNumber"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/4_PrimeNumber/PrimeNumber.sol": {
+			"keccak256": "0xaf4bc795622fbe7c74f1a571c9f9854f33b79576e917a6ca60709b697724d140",
+			"urls": [
+				"bzz-raw://61d03228826fa1c7558f9efe62681657cd4367118055aceefbc3fbcf737591a6",
+				"dweb:/ipfs/QmZAtaovrQG1vjNVKsMaPLQMbzfcfzFpkVT35HUoeqHivT"
+			]
+		}
+	},
+	"version": 1
+}

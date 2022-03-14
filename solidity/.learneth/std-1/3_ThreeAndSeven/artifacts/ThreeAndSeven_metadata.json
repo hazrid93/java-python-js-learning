@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"check(int256)": {
+					"details": "Tells whether number is divisible by 3 or 7 and greater than 10",
+					"params": {
+						"num": "Number to check"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/std-1/3_ThreeAndSeven/ThreeAndSeven.sol": "ThreeAndSeven"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/std-1/3_ThreeAndSeven/ThreeAndSeven.sol": {
+			"keccak256": "0xeed0fee7dd20b505420fd5a9b8bcdcf98f9612ce75ed179566f5b0dfe1b16900",
+			"urls": [
+				"bzz-raw://1952eb3b744b67bab962c9ecbc1eea1b594eb866f37a09248c9c500ef50ae22e",
+				"dweb:/ipfs/QmXPE89FqjRguVAWFyEmkLrS1kxTLTCx9DkpqfapPgYGH6"
+			]
+		}
+	},
+	"version": 1
+}
