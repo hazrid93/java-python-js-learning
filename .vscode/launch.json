@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintFibonacci_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.dynamic_programming.PrintFibonacci_1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.binary_tree.LevelOrderTraversal_1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "com.azad.core.java.App",
