@@ -27,7 +27,11 @@ public class OuterClass {
             System.out.println(OuterClass.this.x);
         }
     }
-
+    // note that static inner class dont really mean a static class,
+    // in java there are no static class, but for inner class we can add 'static'
+    // it just means that the  inner static class doesnt depend on outer class.
+    // thats why this inner static class has method 'accessMembers' that are not static
+    // imagine StaticNestedClass here as another class outside OuterClass defined without static.
     static class StaticNestedClass {
         void accessMembers(OuterClass outer) {
             // Compiler error: Cannot make a static reference to the non-static
@@ -50,7 +54,8 @@ public class OuterClass {
 
         System.out.println("\nStatic nested class:");
         System.out.println("--------------------");
-        StaticNestedClass staticNestedObject = new StaticNestedClass();        
+        // StaticNestedClass.accessMembers(outerObject); if accessMembers method is static
+        OuterClass.StaticNestedClass staticNestedObject = new OuterClass.StaticNestedClass();        
         staticNestedObject.accessMembers(outerObject);
         
         System.out.println("\nTop-level class:");

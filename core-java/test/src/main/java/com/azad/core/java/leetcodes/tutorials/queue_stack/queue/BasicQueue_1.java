@@ -3,7 +3,7 @@ package com.azad.core.java.leetcodes.tutorials.queue_stack.queue;
 import java.util.Arrays;
 
 // design manual queue
-public class Queue1 {
+public class BasicQueue_1 {
 
     private class MyQueue {
         int[] array;
@@ -44,7 +44,7 @@ public class Queue1 {
     }
 
     public static void main(String[] args){
-        Queue1 queue1 = new Queue1();
+        BasicQueue_1 queue1 = new BasicQueue_1();
         MyQueue myQueue = queue1.new MyQueue(5);
         myQueue.enqueue(2);
         myQueue.enqueue(2);

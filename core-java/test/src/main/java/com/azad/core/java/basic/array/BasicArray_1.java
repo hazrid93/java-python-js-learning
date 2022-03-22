@@ -1,8 +1,8 @@
-package com.azad.core.java.leetcodes.tutorials.array;
+package com.azad.core.java.basic.array;
 
-// Q. 1295
+
 // example of dvd array https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3236/
-public class Array_1 {
+public class BasicArray_1 {
     public static void main(String[] args){
         //define array of object (but still empty)
         // Java always initializes empty Array slots to null if 

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LRUCache_2",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.leetcodes.tutorials.queue_stack.LRUCache_2",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicArray_1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.basic.array.BasicArray_1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch PrintFibonacci_1",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.tutorials.dynamic_programming.PrintFibonacci_1",
