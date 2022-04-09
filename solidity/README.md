@@ -14,6 +14,11 @@ npx hardhat run scripts/interact.js
 ```
 Note: running ```npx run``` without -network if in config is defaulted to hardhat network then it is just an instance that will be destroyed after running. To have an instance that persist temporarily run ```npx hardhat node``` and do npx run with '-network localhost' this will persist as long as the node process still running.
 
+## compiling typescript
+- Run 'tsc --showConfig' to view the applied config
+- Compile specific ts 'tsc <file_name>.ts'
+- More command at [ts-compiler-option](https://mariusschulz.com/blog/the-showconfig-compiler-option-in-typescript / https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+
 ## verify contract at etherscan
 Note: the argument must be the argument we passed during contract creating *in constructor
 
@@ -37,6 +42,7 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 ```
 - open remix at browser and connect to localhost
 - Optional: run hardhat locally and connect from remix to use local hardhat node 'npx hardhat node' at http://127.0.0.1:8545/
+
 # DOCS
 [web3.js docs](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#)
 [Solidity official doc](https://docs.soliditylang.org/en/v0.8.4/contracts.html)
@@ -71,6 +77,9 @@ npx hardhat compile
 ```
 npx hardhat node
 ```
+
+# Alternative Tutorial 
+[ethernaut](https://ethernaut.openzeppelin.com/)
 
 # More README at:
 :boom: [alchemy-tutorial-hello-world](./others_project/alchemy-tutorial-hello-world/README.md)

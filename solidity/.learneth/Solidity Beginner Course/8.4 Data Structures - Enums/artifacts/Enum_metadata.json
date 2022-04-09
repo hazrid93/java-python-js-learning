@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.8.4+commit.c7e474f2"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,6 +18,19 @@
 				"outputs": [
 					{
 						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSize",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Size",
 						"name": "",
 						"type": "uint8"
 					}
@@ -47,6 +60,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "sizes",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "status",
 				"outputs": [
 					{
@@ -72,9 +98,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums.sol": "Enum"
+			".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums_answer.sol": "Enum"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -86,12 +112,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums.sol": {
-			"keccak256": "0xb0c0fc3b78ff38876645e7fed8e28b3d0745f22695ce1d6ea0ccf2216b2ef5c4",
+		".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums_answer.sol": {
+			"keccak256": "0x145dde574db13a18c0d4f9f8ba6607c59a24e9e272a6a3e203bda12c16afa786",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://efdbb216b86048c96d1898caa36070bdf81f5ac12e53901e50b7ad024a68e271",
-				"dweb:/ipfs/QmRetDhTKR6yZJRkpMEKGDTTtwUG5CpWDeFNCa1K2HX6tW"
+				"bzz-raw://8a0b6455029a2ee497c7d5d4489df541bda44a3a2e232f8fb8185b882c22eb3e",
+				"dweb:/ipfs/QmdJPQsJxjVQfrhCMN5e8MQynxqegwfznccbWoRAr3SpVn"
 			]
 		}
 	},

@@ -9,6 +9,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "evenCheck",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "x",
 						"type": "uint256"
 					}
@@ -57,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/7.1 Control Flow - If/Else/ifElse.sol": "IfElse"
+			".learneth/Solidity Beginner Course/7.1 Control Flow - If/Else/ifElse_answer.sol": "IfElse"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -71,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/7.1 Control Flow - If/Else/ifElse.sol": {
-			"keccak256": "0x088b3ca909baa773b7131bf3bb827f335eada6e6f311cb27c6fa0dcf104afe50",
+		".learneth/Solidity Beginner Course/7.1 Control Flow - If/Else/ifElse_answer.sol": {
+			"keccak256": "0x8e440f7bc3cce9a9ac0602c09deb77bc2efb738a99352b90e21f35249459df36",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9692baeb4eb0337d9122721ede20fdbc07b8e38d6e67f679c9302c4f4a13916d",
-				"dweb:/ipfs/QmUAd3Ar9pvRrEHjDP6Lrkpa9heHrkB5QXfWJ6cYS64pZE"
+				"bzz-raw://c2aa77fb65f599d05d376bf4eac9843a57cb09afc317cc343716da7f878254f6",
+				"dweb:/ipfs/QmNSPLKs8w5Trzzb4d9nhQ6sjsyQe7AGpcTVWzozpFDmLD"
 			]
 		}
 	},

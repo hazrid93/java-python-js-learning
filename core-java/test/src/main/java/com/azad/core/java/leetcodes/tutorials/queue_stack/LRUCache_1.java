@@ -88,6 +88,12 @@ public class LRUCache_1 {
             }
             return -1;
         }
+
+        public void set(int key, int value){
+            if(map.containsKey(key)){
+                
+            }
+        }
     }
 }
 

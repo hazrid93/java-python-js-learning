@@ -37,6 +37,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "locked",
 				"outputs": [
@@ -89,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors.sol": "FunctionModifier"
+			".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors_answer.sol": "FunctionModifier"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -103,12 +116,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors.sol": {
-			"keccak256": "0x7939f32b86fbb587215512f0755e9c3df61d9b4e985a73b70bd26438f6f529ee",
+		".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors_answer.sol": {
+			"keccak256": "0x1f3483347dea365b28bb45c00949f0c307031a7c78f715eef1a61981fe5d54be",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4aaadc6f07581bf8639db38fc71a04aa2f8f134a5602b771e5e4bf9ce98a679b",
-				"dweb:/ipfs/Qmd8tLJNWypUia3EeeY8uiLr4zayMc1Shu1U2soHcxQ7Yu"
+				"bzz-raw://a5c8b7d679aecff8d72af94c7568060347f4d540d5351b118c4c85ca43262876",
+				"dweb:/ipfs/QmZtAj1hyMYFfE5rTCxUbJqzF91Lrvfaer3GNf8aDxe9Xb"
 			]
 		}
 	},

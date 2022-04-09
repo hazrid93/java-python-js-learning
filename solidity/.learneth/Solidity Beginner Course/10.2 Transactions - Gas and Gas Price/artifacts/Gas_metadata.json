@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "cost",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "forever",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -52,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice_answer.sol": "Gas"
+			".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": "Gas"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -66,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice_answer.sol": {
-			"keccak256": "0xf3f6dec625591339dcc10727f7ae5fe7eeaa55d965e79207214ac422ff5aeea9",
+		".learneth/Solidity Beginner Course/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": {
+			"keccak256": "0xd8932c11ce6539f3c78db6be1008f9a23c437f6f8b9e6f888854fa11ec6cd8b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e66cd96edb4d0bec210e278f93c9a3bcd2dcf7a66851474f6f0944baa476a8f",
-				"dweb:/ipfs/Qmc6gdMq8zBf45byXKMQLTsDuomB2HYKuWNq8eU824Sv9M"
+				"bzz-raw://a61ddd2dcfc0b82f3d09dc3cdaf174e4d3bc37989a2d259fd7a5fb26a2bbee9c",
+				"dweb:/ipfs/QmUhJpwHEUrGqZ6RVKRKMEYFfsvFqvN8sBHXQ2vtmzUcKm"
 			]
 		}
 	},

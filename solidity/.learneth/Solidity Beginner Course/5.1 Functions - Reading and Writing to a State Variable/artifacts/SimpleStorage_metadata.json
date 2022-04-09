@@ -7,12 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/5.1 Functions - Reading and Writing to a State Variable/readAndWrite.sol": "SimpleStorage"
+			".learneth/Solidity Beginner Course/5.1 Functions - Reading and Writing to a State Variable/readAndWrite_answer.sol": "SimpleStorage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -72,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/5.1 Functions - Reading and Writing to a State Variable/readAndWrite.sol": {
-			"keccak256": "0x27620cc290f6c8546d9acfb01577e4b9084dcf5654c4c17ebf21a6caf97a4076",
+		".learneth/Solidity Beginner Course/5.1 Functions - Reading and Writing to a State Variable/readAndWrite_answer.sol": {
+			"keccak256": "0x4f6464986e0d276089aee03a313638c4f31ee0814529025d924d394dae8b751f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0d6817820ff34cfc07defbd73a7633d2c6ae5e671540b5ea917180f1634fb8a9",
-				"dweb:/ipfs/QmQPDcxcUJLgzHzozFSLA8tsgYQsU1cj4dCk75MSBKgQTa"
+				"bzz-raw://89c2c7cbcfc65eadcaa3c15ed5c628159e70d34a64fbb08ebeb35e9c247f314a",
+				"dweb:/ipfs/QmeiML8xtWbGwSK95NsK3kaNwBbEYNUV2kBWZGaHjatkcL"
 			]
 		}
 	},
