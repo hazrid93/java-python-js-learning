@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax.sol": "MyContract"
+			".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax_answer.sol": "MyContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax.sol": {
+		".learneth/Solidity Beginner Course/2. Basic Syntax/basicSyntax_answer.sol": {
 			"keccak256": "0xd49d504e3e52dc462aa91454ce50bda7e39d048cc89369115d7a58a1c9b20f37",
 			"license": "MIT",
 			"urls": [

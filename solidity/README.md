@@ -79,7 +79,7 @@ npx hardhat node
 ```
 
 # Alternative Tutorial 
-[ethernaut](https://ethernaut.openzeppelin.com/)
+[ethernaut](https://ethernaut.openzeppelin.com/) solution at *or google there is alot of place that provide answers [ethernaut sol](https://forum.openzeppelin.com/t/ethernaut-community-solutions/561)
 
 # More README at:
 :boom: [alchemy-tutorial-hello-world](./others_project/alchemy-tutorial-hello-world/README.md)

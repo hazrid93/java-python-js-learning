@@ -6,15 +6,34 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "Add",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "i",
+						"name": "a",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "j",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
@@ -26,18 +45,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "addToX",
+				"inputs": [],
+				"name": "calculateResult",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -49,26 +62,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "addToX2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "x",
+				"name": "user",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -88,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/Solidity Beginner Course/5.2 Functions - View and Pure/viewAndPure_answer.sol": "ViewAndPure"
+			"contract_tutorial/call_other_contract_1/Calculator.sol": "Calculator"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -102,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/Solidity Beginner Course/5.2 Functions - View and Pure/viewAndPure_answer.sol": {
-			"keccak256": "0x72c851fd7c4646a4b2467d509dd84c7b888e00143c38961300aadb541d0dc7e4",
+		"contract_tutorial/call_other_contract_1/Calculator.sol": {
+			"keccak256": "0x000c96e2ac42568e1d33f3a6d146967c5568634a39133035d170fa094a717107",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fa9df4f4c4d656432e3325fce4feb251199e75d8aeef89170f86e6f1525d4a8c",
-				"dweb:/ipfs/QmPmYKLhno5cjh4EA4DHZsfLB5JcXu3Vsd5MnkKVe2CL8T"
+				"bzz-raw://e183a439576177d00b4c03cca63025278e742665525b870ed7f5f35be2d671e0",
+				"dweb:/ipfs/QmYfW4rRzhAWD8ywZJWFWfNbLXCzZDQ8kDCKWznNfmfndQ"
 			]
 		}
 	},

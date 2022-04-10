@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.9",
+    "@remix-project/remixd": "^0.5.7",
     "dotenv": "^16.0.0",
     "utility": "^1.17.0"
   }
