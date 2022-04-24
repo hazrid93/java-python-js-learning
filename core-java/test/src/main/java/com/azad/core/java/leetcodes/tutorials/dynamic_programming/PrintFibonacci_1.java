@@ -15,7 +15,7 @@ public class PrintFibonacci_1 {
     
     public static void main(String[] args){
         PrintFibonacci_1 printFib = new PrintFibonacci_1();
-        printFib.printFibonacci(40);// 40th fibonacci sequence value
+        printFib.printFibonacci(20);// 40th fibonacci sequence value
     }
 
     public void printFibonacci(int end){
@@ -54,3 +54,6 @@ public class PrintFibonacci_1 {
         return cur;
     }
 }
+
+
+//2

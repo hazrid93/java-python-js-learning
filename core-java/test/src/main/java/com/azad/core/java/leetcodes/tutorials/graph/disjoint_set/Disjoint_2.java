@@ -33,7 +33,7 @@ class QuickUnion {
     }
 
     public int find(int x){
-        while (x != root[x]) {
+        if (x != root[x]) {
             x = root[x];
         }
         return x;
