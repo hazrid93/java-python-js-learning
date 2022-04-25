@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "initialValue",
+						"name": "initial",
 						"type": "uint256"
 					}
 				],
@@ -49,6 +49,25 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "values",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -64,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract_tutorial/call_other_contract_1/Caller.sol": "Callee"
+			"contract_tutorial/call_other_contract_1/Callee.sol": "Callee"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -78,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract_tutorial/call_other_contract_1/Caller.sol": {
-			"keccak256": "0x9abe94958ac33c68ebae34438cc301049b7b70d54a08eb572ebf1de393d82600",
+		"contract_tutorial/call_other_contract_1/Callee.sol": {
+			"keccak256": "0xb410cce30c9bcf9a06145467619fddd6231a59bafd7078828c091b48848ae683",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3087b316d06de2f079747bcd22ed23020926fbe3bf175117250face4702a20fc",
-				"dweb:/ipfs/QmWbkMAaFJb9hL3eZDwwqQU21Waf7teL48bLAAGvKEjC9T"
+				"bzz-raw://6cc111e8377c69f3fdc66dd39033f84ba9daed78cf777b4fa6916ff432c5583c",
+				"dweb:/ipfs/QmUgMWRNUPAvHQJuu1vBbLTPowau8yXiL7JviEyDY4rFyR"
 			]
 		}
 	},

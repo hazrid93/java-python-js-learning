@@ -58,7 +58,6 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 [info about solidity ABI](https://medium.com/@eiki1212/explaining-ethereum-contract-abi-evm-bytecode-6afa6e917c3b,  https://ethereum.stackexchange.com/questions/234/what-is-an-abi-and-why-is-it-needed-to-interact-with-contracts) // note: the ABI are not only use for external->smartcontract but also smartcontract->smartcontract, hence there are use cases of keccak256 with abi.encode inside smartcontract,
 
 # TUTORIALS
-[example app-renting house](https://www.loginradius.com/blog/async/guest-post/ethereum-smart-contract-tutorial/)
 [solidity by example](https://solidity-by-example.org/)
 [handson smart contract](https://blockchain-conf.github.io/files/blockchain-hands-on-Tutorial.pdf)
 [solidity cheatsheet](https://reference.auditless.com/cheatsheet/)
@@ -79,7 +78,7 @@ npx hardhat node
 ```
 
 # Alternative Tutorial 
-[ethernaut](https://ethernaut.openzeppelin.com/) solution at *or google there is alot of place that provide answers [ethernaut sol](https://forum.openzeppelin.com/t/ethernaut-community-solutions/561)
+[ethernaut](https://ethernaut.openzeppelin.com/) solution at *or google there is alot of place that provide answers [ethernaut sol](https://forum.openzeppelin.com/t/ethernaut-community-solutions/561 or https://www.youtube.com/playlist?list=PLBy3Qkuapv_7R1ZI_Cs2NOFn7ZTaNWY6G)
 
 # More README at:
 :boom: [alchemy-tutorial-hello-world](./others_project/alchemy-tutorial-hello-world/README.md)

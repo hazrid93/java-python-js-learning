@@ -34,7 +34,4 @@ contract CoinFlip {
     }
   }
 
-  function print() public returns (bool){
-      return true;
-  }
 }
