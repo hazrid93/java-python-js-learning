@@ -1,0 +1,1 @@
+This is default hardhat test directory

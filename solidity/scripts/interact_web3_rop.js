@@ -1,5 +1,4 @@
-// NOTE: this one using web3.js with alchemy provider, to connect to test network,
-// this is not using alchemy/web3 library
+// NOTE: this one using web3.js with alchemy provider, to connect to test network
 const path = require('path')
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
 const alchemyKey = process.env.ROP_API_URL;

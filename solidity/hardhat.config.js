@@ -20,7 +20,13 @@ module.exports = {
   defaultNetwork: "hardhat",
    networks: {
       hardhat: {
-        chainId: 1337
+        chainId: 31337
+        // enable this to fork testnet/mainnet
+        /*
+        forking: {
+          url: "https://eth-rinkeby.alchemyapi.io/v2/4hWsFUbJe7whcGZZ1vhgGYs-QjtsU7CZ"
+        }
+        */
       },
       ropsten: {
          url: ROP_API_URL,

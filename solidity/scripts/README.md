@@ -1,0 +1,1 @@
+Default hardhat script directory

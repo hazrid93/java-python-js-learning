@@ -6,6 +6,9 @@
 ## ropsten etherscan address
 - https://ropsten.etherscan.io/
 
+## hardhat console
+ - Run 'npx hardhat console'
+
 ## running scripts
 ```
 npx hardhat run scripts/deploy.js
@@ -18,6 +21,10 @@ Note: running ```npx run``` without -network if in config is defaulted to hardha
 - Run 'tsc --showConfig' to view the applied config
 - Compile specific ts 'tsc <file_name>.ts'
 - More command at [ts-compiler-option](https://mariusschulz.com/blog/the-showconfig-compiler-option-in-typescript / https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+
+## fork testnet as local
+- npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>
+- Or set at hardhat.config.js 'forking' under 'network/hardhat' which will be the default then run 'npx hardhat node'
 
 ## verify contract at etherscan
 Note: the argument must be the argument we passed during contract creating *in constructor
@@ -66,6 +73,12 @@ e.x: remixd -s C:\codes\github\python-js-learning\solidity --remix-ide https://r
 [good playlist for solidity](https://www.youtube.com/playlist?list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p)
 
 Note: remix IDE has some tutorials to learn erc20/721 can use that to  learn.
+
+# TUTORIALS (CALLING OTHER CONTRACT)
+[using delegatecall and getting return value-1](https://kushgoyal.com/ethereum-solidity-how-use-call-delegatecall/)
+[using delegatecall and getting return value-2](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c)
+[calling other function on sol](https://medium.com/@houzier.saurav/calling-functions-of-other-contracts-on-solidity-9c80eed05e0f)
+[calling contract func with web3](https://bitsofco.de/calling-smart-contract-functions-using-web3-js-call-vs-send/)
 
 ## compile sol
 ```
