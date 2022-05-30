@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzas;
+package com.azad.core.java.designpatterns.factory.pizzas;
 
 public class PizzaStore {
 	SimplePizzaFactory factory;

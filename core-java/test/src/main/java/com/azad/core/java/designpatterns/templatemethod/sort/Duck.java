@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.sort;
+package com.azad.core.java.designpatterns.templatemethod.sort;
 
 public class Duck implements Comparable<Duck> {
 	String name;

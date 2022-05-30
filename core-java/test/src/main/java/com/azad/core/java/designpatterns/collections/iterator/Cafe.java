@@ -1,4 +1,4 @@
-package headfirst.designpatterns.collections.iterator;
+package com.azad.core.java.designpatterns.collections.iterator;
 
 import java.util.*;
 

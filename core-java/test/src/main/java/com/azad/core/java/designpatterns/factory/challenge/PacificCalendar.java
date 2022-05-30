@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.challenge;
+package com.azad.core.java.designpatterns.factory.challenge;
 
 import java.util.*;
 
