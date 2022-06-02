@@ -1,4 +1,4 @@
-package headfirst.designpatterns.builder.house;
+package com.azad.core.java.designpatterns.builder.house;
 
 import headfirst.designpatterns.builder.house.HouseBuilder.HouseType;
 import java.util.*;

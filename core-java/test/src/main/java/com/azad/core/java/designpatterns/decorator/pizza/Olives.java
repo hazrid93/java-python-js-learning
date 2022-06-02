@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.pizza;
+package com.azad.core.java.designpatterns.decorator.pizza;
 
 public class Olives extends ToppingDecorator {
 	

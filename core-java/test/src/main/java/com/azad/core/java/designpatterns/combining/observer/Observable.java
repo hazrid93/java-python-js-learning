@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.observer;
+package com.azad.core.java.designpatterns.combining.observer;
 
 import java.util.Iterator;
 import java.util.List;

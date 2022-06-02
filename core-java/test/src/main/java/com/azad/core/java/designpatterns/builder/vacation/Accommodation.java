@@ -1,4 +1,4 @@
-package headfirst.designpatterns.builder.vacation;
+package com.azad.core.java.designpatterns.builder.vacation;
 
 public abstract class Accommodation {
 	String name;

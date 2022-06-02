@@ -1,4 +1,4 @@
-package headfirst.designpatterns.builder.pizza;
+package com.azad.core.java.designpatterns.builder.pizza;
 
 public class VeggieLoversPizzaBuilder extends PizzaBuilder {
 	public VeggieLoversPizzaBuilder() {

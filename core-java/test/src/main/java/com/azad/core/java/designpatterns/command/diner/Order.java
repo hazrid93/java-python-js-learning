@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.diner;
+package com.azad.core.java.designpatterns.command.diner;
 
 @FunctionalInterface
 public interface Order {

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.facade.hometheater;
+package com.azad.core.java.designpatterns.facade.hometheater;
 
 public class HomeTheaterTestDrive {
 	public static void main(String[] args) {

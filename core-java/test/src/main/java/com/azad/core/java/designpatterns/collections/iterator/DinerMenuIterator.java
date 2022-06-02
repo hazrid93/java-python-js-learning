@@ -1,4 +1,4 @@
-package headfirst.designpatterns.collections.iterator;
+package com.azad.core.java.designpatterns.collections.iterator;
 
 public class DinerMenuIterator implements Iterator {
 	String[] items;

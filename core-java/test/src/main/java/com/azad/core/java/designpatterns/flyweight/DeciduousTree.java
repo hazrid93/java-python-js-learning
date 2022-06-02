@@ -1,4 +1,4 @@
-package headfirst.designpatterns.flyweight;
+package com.azad.core.java.designpatterns.flyweight;
 
 import java.time.*;
 

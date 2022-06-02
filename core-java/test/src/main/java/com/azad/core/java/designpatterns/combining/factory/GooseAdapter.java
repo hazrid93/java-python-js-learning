@@ -1,4 +1,4 @@
-package headfirst.designpatterns.combining.factory;
+package com.azad.core.java.designpatterns.combining.factory;
 
 public class GooseAdapter implements Quackable {
 	Goose goose;

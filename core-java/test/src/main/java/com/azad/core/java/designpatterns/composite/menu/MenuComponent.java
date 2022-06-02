@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menu;
+package com.azad.core.java.designpatterns.composite.menu;
 
 public abstract class MenuComponent {
    

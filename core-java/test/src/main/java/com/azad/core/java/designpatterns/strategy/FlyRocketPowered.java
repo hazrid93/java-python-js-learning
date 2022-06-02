@@ -1,4 +1,4 @@
-package headfirst.designpatterns.strategy;
+package com.azad.core.java.designpatterns.strategy;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {
