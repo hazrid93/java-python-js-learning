@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ProducerConsumer",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.multithreaded.synchronize.producer_consumer_1.ProducerConsumer",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch testbigdecimal1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.basic.randomstuff.testbigdecimal1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalDate1",
+            "request": "launch",
+            "mainClass": "com.azad.core.java.basic.date_time.LocalDate1",
+            "projectName": "core-java"
+        },
+        {
+            "type": "java",
             "name": "Launch Disjoint_2",
             "request": "launch",
             "mainClass": "com.azad.core.java.leetcodes.tutorials.graph.disjoint_set.Disjoint_2",

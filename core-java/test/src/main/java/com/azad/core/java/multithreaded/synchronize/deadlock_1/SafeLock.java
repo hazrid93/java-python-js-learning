@@ -1,4 +1,4 @@
-package com.azad.core.java.multithreaded.synchronize;
+package com.azad.core.java.multithreaded.synchronize.deadlock_1;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;

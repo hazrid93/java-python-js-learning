@@ -1,4 +1,4 @@
-package com.azad.core.java.multithreaded.synchronize;
+package com.azad.core.java.multithreaded.synchronize.producer_consumer_1;
 
 import java.util.Random;
 

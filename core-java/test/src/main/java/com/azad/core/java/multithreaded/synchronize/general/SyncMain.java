@@ -1,4 +1,4 @@
-package com.azad.core.java.multithreaded.synchronize;
+package com.azad.core.java.multithreaded.synchronize.general;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
